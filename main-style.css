@@ -1,12 +1,15 @@
+
 body{
     background-color: rgb(105, 101, 101);
+    margin: 0px;
+    padding: 0px;
+    width: 100vh;
 }
 .container{
     width:100%;
-    height: 100vh;
     padding: 10px;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:12%;   
+    margin-right:10%;
     align-content:center;
     
 }
@@ -16,10 +19,13 @@ body{
 
 .section-2 .card{
     width: 60vw;
-    height: 400px;
+    height: 525px;
 }
 .card{
-    padding: 1.5rem;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
     margin: 10px;
     background-color: white;
     border-radius: 10px;
@@ -28,9 +34,14 @@ body{
 -moz-box-shadow: 1px -1px 4px 0px rgba(0,0,0,0.75);
 }
 
-.card img{
+.profile{
     max-width: 100px;
     border-radius: 50%;
+}
+
+.icon{
+    height:20px;
+    
 }
 
 .text-center{
@@ -43,7 +54,13 @@ body{
 }
 .between{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+}
+.align-items{
+    align-items: center;
+}
+ul{
+    padding:10px;
 }
 li{
     list-style-type: none;
