@@ -4,7 +4,7 @@ html{
 }
 body{
     
-    background-color: rgb(105, 101, 101);
+    background-color: rgb(214, 214, 214);
     margin: 0px;
     padding: 0px;
 
@@ -88,6 +88,7 @@ button{
     color: rgb(255, 255, 255);
     border-radius: 5px;
     margin-left: 10px;
+    box-shadow: none;
     margin-bottom: 5px;
     padding: 10px ;
     border-color: rgb(37, 151, 245);
@@ -98,4 +99,8 @@ button h3{
 }
 button:hover{
     background-color: rgb(24, 113, 185);
+}
+#btn-2{
+    background-color: white;
+    color: rgb(37, 151, 245);
 }
