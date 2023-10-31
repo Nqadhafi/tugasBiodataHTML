@@ -46,8 +46,8 @@ body{
 }
 
 .icon{
-    height:20px;
-    
+    height:30px;
+    padding-right: 3px;
 }
 
 .text-center{
@@ -71,6 +71,9 @@ ul{
 li{
     list-style-type: none;
 }
+hr{
+    width: 100%;
+}
 
 .width-h2{
     width: 10vw;
@@ -87,5 +90,12 @@ button{
     margin-left: 10px;
     margin-bottom: 5px;
     padding: 10px ;
-    border-style: none;
+    border-color: rgb(37, 151, 245);
+}
+button h3{
+    padding: 0;
+    margin: 0;
+}
+button:hover{
+    background-color: rgb(24, 113, 185);
 }
